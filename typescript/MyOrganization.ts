@@ -33,10 +33,7 @@ class MyOrganization extends Organization {
 
 const myOrg = new MyOrganization();
 myOrg.hire(new Name('Bob', 'Smith'), 'CEO');
-myOrg.hire(new Name('Large', 'Smith'), 'CEO');
-
 myOrg.hire(new Name('Zaphod', 'Beeblebrox'), 'President');
-
 myOrg.hire(new Name('Gandalf', 'Gray'), 'Director Enterprise Architecture');
 myOrg.hire(new Name('Bill', 'Lumbergh'), 'Director Customer Technology');
 myOrg.hire(new Name('Ford', 'Prefect'), 'VP Marketing');
@@ -47,3 +44,5 @@ myOrg.hire(new Name('Head', 'Geek'), 'VP Technology');
 myOrg.hire(new Name('Steve', 'Dent'), 'VP Infrastructure');
 myOrg.hire(new Name('Slick', 'Willie'), 'Salesperson');
 console.log(myOrg.toString());
+
+//myOrg.hire(new Name('Large', 'Smith'), 'CEO');
