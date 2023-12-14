@@ -37,6 +37,8 @@ abstract class Organization {
         targetPosition.setEmployee(new Employee(this.getRandomID(0, 1000), person))
       }
     }
+    // tried to specify when a position is filled already when it's trying to be filled again. DOESN'T WORK 
+    else{console.log("The position, " + `${title}` + ", has already been filled.")}
   }
 
   provideDetails(targetPosition: Position, person: Name, title: String){
